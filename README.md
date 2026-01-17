@@ -37,7 +37,7 @@ vite
 
 ### Option 1: Automated Launch (Recommended)
 ```bash
-python run_omstream.py
+python omstream.py
 ```
 This script will:
 - Install all dependencies automatically
@@ -45,7 +45,17 @@ This script will:
 - Start the frontend development server (port 5173)
 - Open the application in your browser
 
-### Option 2: Manual Setup
+### Option 2: Jupyter Notebook (Interactive)
+```bash
+jupyter notebook omstream.ipynb
+```
+This notebook provides:
+- Step-by-step execution with visible output
+- Better debugging and control over each process
+- Manual dependency installation and server management
+- Interactive cell-by-cell launch process
+
+### Option 3: Manual Setup
 
 #### Start Backend
 ```bash
