@@ -1,0 +1,60 @@
+[
+    {
+        "title": "THE PURĀNIC DEITIES",
+        "description": "The Major Deities of the Puranas.",
+        "image": "/images/puranic_deities.png",
+        "subcategories": [
+            {"title": "I. BRAHMĀ & SARASVATI", "episodes": ["Brahmā", "Sarasvati"]},
+            {
+                "title": "II. VISHNU & LAKSHMI",
+                "episodes": ["Vishnu", "Lakshmi"],
+                "sub_series": [
+                    "1. THE MATSYA OR FISH AVATĀRA",
+                    "2. THE KŪRMA OR TORTOISE AVATĀRA",
+                    "3. THE VARĀHA OR BOAR AVATĀRA",
+                    "4. THE NRISINGHA OR MAN-LION AVATĀRA",
+                    "5. THE VĀMANA OR DWARF AVATĀRA",
+                    "6. THE PARASURĀMA AVATĀRA",
+                    "7. THE RĀMA CHANDRA AVATĀRA",
+                    "8. THE KRISHNA AVATĀRA",
+                    "8a. THE BALARĀMA AVATĀRA",
+                    "9. THE BUDDHA AVATĀRA",
+                    "10. THE KALKI AVATĀRA"
+                ]
+            },
+            {
+                "title": "III. UMĀ (THE SAKTIS)",
+                "episodes": ["Umā (also known as Pārvati, Durgā, Kāli, etc.)"],
+                "sub_series": [
+                    "1. DURGĀ", "2. DASABHUJĀ", "3. SINGHAVĀHINI", "4. MAHISHAMĀRDINI", 
+                    "5. JAGADDHĀTRI", "6. KĀLI", "7. MUKTAKESI", "8. TĀRA", 
+                    "9. CHINNAMUSTAKA", "10. JAGADGAURI", "11. PRATYANGIRĀ", 
+                    "12. ANNAPURNĀ", "13. GANESAJANANI", "14. KRISHNAKRORA"
+                ]
+            },
+            {"title": "IV. SONS OF SIVA AND PĀRVATI", "episodes": ["1. Ganesa", "2. Kartikeya"]}
+        ]
+    },
+    {
+        "title": "THE INFERIOR DEITIES",
+        "description": "Divine Rishis, Demigods, and Celestial Beings.",
+        "image": "/images/inferior_deities.png",
+        "subcategories": [
+            {
+                "title": "I. THE DIVINE RISHIS",
+                "episodes": ["1. Bhrigu", "2. Pulastya", "3. Pulaha", "4. Kratu", "5. Angiras", "6. Marichi", "7. Atri", "8. Daksha", "9. Vasishtha", "10. Nārada"]
+            },
+            {"title": "II. KUVERA", "episodes": ["Kuvera"]},
+            {
+                "title": "III. THE DEMIGODS OF THE RĀMĀYANA",
+                "episodes": ["1. Sugriva", "2. Hanumān", "3. Nala", "4. Nīla", "5. Sushena"]
+            },
+            {
+                "title": "IV. THE PLANETS",
+                "episodes": ["1. Ravi (Surya)", "2. Chandra (Soma)", "3. Mangala", "4. Budha", "5. Vrihaspati", "6. Sukra", "7. Sani", "8. Rāhu and Ketu"]
+            },
+            {"title": "V. THE ASURAS", "episodes": ["The Asuras", "Jalandhara"]},
+            {"title": "VI. SACRED ANIMALS AND BIRDS", "episodes": ["Garuda", "Jatāyus and Sampāti"]}
+        ]
+    }
+]

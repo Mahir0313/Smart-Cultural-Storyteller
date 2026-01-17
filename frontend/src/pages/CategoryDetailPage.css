@@ -1,0 +1,92 @@
+.category-detail-page {
+  padding: 1rem 0;
+  background-color: var(--background);
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.category-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.category-title-detail {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+.category-description-detail {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  transition: color 0.3s ease;
+}
+
+.subcategory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.subcategory-item {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: var(--card-background);
+  transition: all 0.3s ease;
+}
+
+.subcategory-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subcategory-title {
+  font-size: 1.75rem;
+  color: var(--accent-gold);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.sub-series-group {
+    margin-top: 1.5rem;
+}
+
+.sub-series-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+/* Light mode specific adjustments */
+body.light-mode .subcategory-item {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .subcategory-item:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+body.light-mode .category-title-detail {
+  font-weight: 800;
+}
+
+body.light-mode .subcategory-title {
+  font-weight: 800;
+}
+
+body.light-mode .category-description-detail {
+  font-weight: 500;
+}
+
+body.light-mode .sub-series-heading {
+  font-weight: 600;
+}
+
